@@ -1,0 +1,169 @@
+.caja{
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;;
+}
+
+#logo{
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+#entradaTexto{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    background: white;
+}
+
+
+#texto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 577;
+    font-size: 32px;
+    line-height: 150%;
+    color:#0A3871;
+    border: none;
+    width: 577px;
+}
+
+#mensajeDeError{
+    font-weight: 590;
+    font-size: 26px;
+    color: red;
+    padding-left: 173px;
+}
+
+#mensajeDeError2{
+    font-weight: 590;
+    font-size: 26px;
+    color: red;
+    padding-left: 173px;
+}
+
+.rectangulo1{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px; 
+    background: white;
+    border-radius: 24px;
+}
+
+#presentar ,#copiar , #mensajeDeError , #mensajeDeError2{
+   display: none;
+   border: none;
+}
+
+#presentar{
+    width: 300px;
+    height: 300px;
+    margin-left: 45px;
+    text-align:center;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+    padding: 0 0 450px;
+}
+
+#copiar{
+    width: 328px;
+    height: 67px;
+    margin-left: 35px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    background: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: darkblue;
+}
+
+#copiar:active {
+    transform: scale(1.05);
+}
+
+#muneco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 30px;
+    top: 250px;
+}
+
+.cuadroTexto{
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 28px;
+    top: 570px;
+
+}
+
+#texto1{
+    color: #343A40;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#texto2{
+    font-size: 25px;
+    text-align: center;
+    color: #495057;
+    margin-top: 10px;
+}
+
+
+#aviso{
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    left: 240px;
+    top: 851px;
+    font-size: 15px;
+}
+.botones{
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+
+#encriptar{
+    width: 328px;
+    height: 67px;
+    margin: 0 20px 0 0;
+    box-sizing: border-box;
+    background: #0A3871;
+    border-radius: 24px;
+    color: white;
+}
+
+#desencriptar{
+    width: 328px;
+    height: 67px;
+    box-sizing: border-box;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: darkblue;
+}
+
+#encriptar:active {
+    transform: scale(1.05);
+}
+
+#desencriptar:active {
+    transform: scale(1.05);
+}
+
+
+
